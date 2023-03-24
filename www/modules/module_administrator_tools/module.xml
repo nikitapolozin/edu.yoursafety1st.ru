@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<module>
+	<title>Administrator tools</title>
+	<author>NIKITA POLOZIN</author>
+	<date>2022 12 01</date>
+	<version>1.10</version>
+	<description>This module is a collection of administrator tools</description>
+	<className>module_administrator_tools</className>
+	<requires>3.6.6</requires>
+</module>
