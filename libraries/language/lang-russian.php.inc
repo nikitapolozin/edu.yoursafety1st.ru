@@ -525,8 +525,8 @@ define("_INFO","Информация");//Information
 define("_LASTPOST","Последнее сообщение");//Last post
 define("_TOTALQUESTIONS","Всего вопросов");//Total questions
 define("_DEVELOPMENT","Ответ в свободной форме");//Development
-define("_MULTIPLEONE","Множественный выбор - один правильный ответ");//Multiple choices - Single correct answer
-define("_MULTIPLEMANY","Множественный выбор - несколько правильных ответов");//Multiple choices - Many correct answers
+define("_MULTIPLEONE","Единственный ответ");//Multiple choices - Single correct answer
+define("_MULTIPLEMANY","Множественный ответ");//Multiple choices - Many correct answers
 define("_MATCH","Соответствие");//Match
 define("_EMPTYSPACES","Пропуски");//Empty spaces
 define("_LOWDIFFICULTY","Низкая сложность");//Low difficulty
