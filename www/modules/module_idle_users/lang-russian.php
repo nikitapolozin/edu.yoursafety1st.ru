@@ -1,5 +1,5 @@
 <?php 
-define("_MODULE_IDLE_USERS_IDLEUSERS", "Незанятые пользователи");//Idle users
+define("_MODULE_IDLE_USERS_IDLEUSERS", "<Бездействующие пользователи");//Idle users
 define("_MODULE_IDLE_USERS_LASTACTION", "Последний вход в систему"); //Last login
 define("_MODULE_IDLE_USERS_SHOWINACTIVEUSERSSINCE", "Показывать пользователям, бездействующим с");//Show users idle since
 define("_MODULE_IDLE_USERS_ARCHIVEALLUSERS", "Архивировать всех пользователей");//Archive all users
@@ -9,4 +9,4 @@ define("_MODULE_IDLE_USERS_THISWILLDEACTIVATEALLUSERSAREYOUSURE", "Это деа
 define("_MODULE_IDLE_USERS_TOGGLESTATUS", "Переключать статус");//Toggle status
 define("_MODULE_IDLE_USERS_LAST3MONTHS", "Последние 3 месяца");//Last 3 months
 define("_MODULE_IDLE_USERS_OTHEROPTIONS", "Другие варианты");//Other options
-define("_MODULE_IDLE_USERS_LASTACTIONSINCE", "Последнее действие с тех пор");//Last action since
+define("_MODULE_IDLE_USERS_LASTACTIONSINCE", "Последнее действие");//Last action since

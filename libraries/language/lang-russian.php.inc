@@ -24,7 +24,7 @@ define("_ADDRESS","Адрес");//Address
 define("_POSTCODE","Почтовый индекс");//Post code
 define("_CITY","Город");//City
 define("_HOMEPHONE","Номер телефона");//Phone number
-define("_EMAILADDRESS","e-mail");//Email address
+define("_EMAILADDRESS","E-mail");//Email address
 define("_COMMENTS","Комментарии");//Comments
 define("_TIME","Время");//Time
 define("_BACK","&larr;&nbsp;Назад");//&larr;&nbsp;Back
@@ -501,7 +501,7 @@ define("_NORESULTSFOUNDINPERSONALMESSAGES","Нет результатов в л�
 define("_SEARCHRESULTSINPERSONALMESSAGES","Результаты поиска в личных сообщений");//Search results in personal messages
 define("_SEARCHRESULTSINCOURSES","Результаты поиска в курсах");//Search results in courses
 define("_MESSAGEFOLDER","Папка сообщений");//Message folder
-define("_EMAIL","e-mail");//Email
+define("_EMAIL","Email");//Email
 define("_RESETPASSWORD","Сброс пароля");//Reset password
 define("_JOINED","Присоединился");//Joined
 define("_MOREINFO","Подробнее");//More info
@@ -658,7 +658,7 @@ define("_VIEWMESSAGE","Просмотреть сообщение");//View messag
 define("_OFTOTAL","от общего объема");//of total
 define("_KBYTESUSED","Кбайт используется");//Kbytes used
 define("_MARK","Отметить");//Mark
-define("_WITHSELECTED","С выбранными");//With selected
+define("_WITHSELECTED","Операции с выбранными ");//With selected
 define("_MARKASREAD","Отметить как прочитанное");//Mark&nbsp;as&nbsp;read
 define("_MARKASUNREAD","Отметить как непрочитанное");//Mark&nbsp;as&nbsp;unread
 define("_MOVETOFOLDER","Переместить в папку");//Move to folder
@@ -799,7 +799,7 @@ define("_INSERTMEDIA","Вставить мультимедийный файл");
 define("_CHANGEORDER","Изменить порядок");//Change order
 define("_DRAGITEMSTOCHANGEQUESTIONSORDER","Перетаскивайте элементы, чтобы изменить порядок отображения вопросов");//Drag items to change the display order of the questions
 define("_TERM","Термин");//Term
-define("_OPERATIONS","Операции");//Operations
+define("_OPERATIONS","Действия");//Operations
 define("_AREYOUSUREYOUWANTTODELETELESSON","Вы действительно хотите удалить урок?");//Are you sure you want to delete lesson?
 define("_EDITLESSON","Правка урока");//Edit lesson
 define("_DIRECTIONS","Категории");//Categories
@@ -1345,7 +1345,7 @@ define("_ANDTHEMESSAGESOFUSER","И сообщения пользователя")
 define("_ALLUSERS","Все пользователи");//All users
 define("_INVALIDUSER","Неверное имя пользователя");//Invalid user name
 define("_REPLACEEXISTINGUSERS","Заменять дубликаты учетных записей");//Replace duplicate users
-define("_KEEPEXISTINGUSERS","Не обновляйте повторяющихся пользователей");//Don't update duplicate users
+define("_KEEPEXISTINGUSERS","Не обновляйте повторяющиеся записи о пользователях");//Don't update duplicate users
 define("_NOOTHERUSERSONLINE","Нет других пользователей в системе");//No other users currently online
 define("_USERNAME","Имя пользователя");//User name
 define("_STATISTICSFORUSER","Отчеты по пользователю");//Reports for user
@@ -1402,7 +1402,7 @@ define("_SHOWALLUSERS","Показать всех пользователей");/
 define("_THEREARENOLESSONSDEFINEDFORTHEUSERLANGUAGE","Нет уроков, подходящих для языка этого пользователя");//There are no lessons defined for the users&#39;s language
 define("_VIEWUSERLESSONPROGRESS","Посмотреть успеваемость учащегося на уроке");//View the student progress throughout the lesson
 define("_USERCAPITAL","Пользователь");//User
-define("_USERSDATA","Импорт/Экспорт пользователей");//Import/Export users
+define("_USERSDATA","Импорт / Экспорт данных о пользователях");//Import/Export users
 define("_ORPHANUSERFOLDERSCHECK","Проверить папки на наличие пользователя");//Orphan user folders check
 define("_USERSWITHOUTFOLDERSCHECK","Проверить наличие пользователей без папок");//Users without folders check
 define("_FOLDERSWITHOUTAUSERASSOCIATED","Следующие папки не имеют ассоциированных пользователей");//The following folders do not have a user associated
@@ -2906,7 +2906,7 @@ define("_WELCOMETOOUR","Добро пожаловать в нашу");//Welcome 
 define("_TOALLSYSTEMUSERS","для всех пользователей системы");//to all system users
 define("_ALLLESSONUSERS","Все пользователи урока");//All lesson users
 define("_USERTRIGGERINGTHEEVENT","Пользователь вызвавший событие");//User triggering the event
-define("_EVENTAPPLIESTO","Событие относится к");//Event applies to
+define("_EVENTAPPLIESTO","Событие применило к:");//Event applies to
 define("_SYSTEM_ON_NEW_PASSWORD_REQUEST","Запрос нового пароля");//New password request
 define("_SURVEYID","ID опроса");//Survey id
 define("_SURVEYMESSAGE","Сообщение опроса");//Survey message
@@ -2943,7 +2943,7 @@ define("_RESETCOURSEWHENEXPIRE","Выполнить сброс курса, ко�
 define("_SENDMESSAGEASHTML","Отправить письмо в HTML-формате");//Send email in html format
 define("_RECENTLYSENT","Недавно отправлено");//Recently sent
 define("_REGISTERED","Зарегистрированные");//Registered
-define("_PAGELOADSBEFORESENDINGNEXTNOTIFICATIONS","Среднее количество загрузок страницы перед отправкой следующего набора уведомлений");//Average page loads before sending the next set of notifications
+define("_PAGELOADSBEFORESENDINGNEXTNOTIFICATIONS","Среднее количество загрузок страницы перед отправкой следующих уведомлений");//Average page loads before sending the next set of notifications
 define("_MESSAGESTOSENDEVERYTIME","Количество уведомлений для отправки в каждом проходе");//Number of notifications to send in each pass
 define("_MAXIMUMSENTMESSAGESSTORED","Хранить следующее число недавно отправленных уведомлений");//Number of recently sent notifications to store
 define("_NOTIFICATIONCONFIGURATIONSUPDATEDSUCCESSFULLY","конфигурация уведомлений была успешно обновлена");//Notification configuration was updated successfully
@@ -3210,7 +3210,7 @@ define("_REVIEWANDCHECKOUT","Просмотреть выбранное и зак
 define("_JOBS","Должности");//Jobs
 define("_SHOWCOURSEINCATALOG","Показать курс в каталоге");//Show course in catalog
 define("_PASTESELECTED","Вставить выбранные");//Paste selected
-define("_SWITCHACCOUNT","Перейти к уч. записи");//Switch account
+define("_SWITCHACCOUNT","ПЕРЕКЛЮЧЕНИЕ АККАУНТОВ");//Switch account
 define("_CONNECTED","Соединен");//Connected
 define("_CANNOTMAPSAMEACCOUNT","Вы не можете связать учетную запись с самим собой");//You can not add a mapped account with yourself
 define("_EXPORTTHEME","Экспортировать тему");//Export theme
@@ -3287,7 +3287,7 @@ define("_DAYLOWER","день");//day
 define("_LESSONUSERSNOTCOMPLETED","Пользователи, которые еще не завершили урок");//Users that have not completed the lesson
 define("_NOUSEREMAILFOUND","Электронная почта не найдена");//no email found
 define("_SENDIMMEDIATELY","Отправить немедленно");//Send immediately
-define("_MAXIMUMTIMEBETWEENNOTIFICATIONS","Максимальное количество минут между последовательными наборами уведомлений");//Maximum minutes between successive notification sets dispatches
+define("_MAXIMUMTIMEBETWEENNOTIFICATIONS","Максимальное количество минут между последующими уведомлениями");//Maximum minutes between successive notification sets dispatches
 define("_POSITIVENUMBERREQUIRED","Требуется положительно число");//Positive number required
 define("_EFRONTFILE","Формат Efront");//Efront proprietary
 define("_SCORM2004","SCORM 2004");//SCORM 2004
@@ -3306,7 +3306,7 @@ define("_IMPORTFROMURL","Импортировать по URL-адресу");//Im
 define("_IMPORTFROMPATH","Импортировать, используя путь");//Import from path
 define("_CHOOSEUNIT","Выбрать раздел");//Choose unit
 define("_USECRON","Использовать Cron Job");//Use cron job
-define("_USECRONINFO","Уведомления могут отсылаться с помощью cron job, для этого выполните<br>скрипт send_notifications.php, расположенный в папке www/<br>вашей инсталляции. Однако, важно определить<br>переменную  HTTP_HOST для переменной \$_SERVER. <br>  Пример скрипта, который может быть выполнен с помощью cron job таков: <br><br>&lt;"."?php<br>\$_SERVER['HTTP_HOST'] = \"127.0.0.1\";<BR>include \"/home/user/eFront/www/send_notifications.php\";<BR>?"."&gt;");//You can have notifications being sent by a cron job by executing<br> the send_notifications.php script located in the www/ <br>folder of your installation. However, it is essential that you define <br>the HTTP_HOST variable for the \$_SERVER variable. <br>A sample script that could be executed by cron is the following: <br><br>&lt;"."?php<br>\$_SERVER['HTTP_HOST'] = \"127.0.0.1\";<BR>include \"/home/user/eFront/www/send_notifications.php\";<BR>?".">
+define("_USECRONINFO","Уведомления могут отсылаться с помощью «Cron Job», для этого <br> выполните скрипт send_notifications.php, расположенный в папке « .../www/ »<br>вашей инсталляции. Однако, важно определить<br>переменную HTTP_HOST для переменной \$_SERVER. <br> Пример скрипта, который может быть выполнен с помощью «Cron Job» таков: <br>&lt;"."?php<br>\$_SERVER['HTTP_HOST'] = \"127.0.0.1\";<BR>include \"/home/user/eFront/www/send_notifications.php\";<BR>?"."&gt;");//You can have notifications being sent by a cron job by executing<br> the send_notifications.php script located in the www/ <br>folder of your installation. However, it is essential that you define <br>the HTTP_HOST variable for the \$_SERVER variable. <br>A sample script that could be executed by cron is the following: <br><br>&lt;"."?php<br>\$_SERVER['HTTP_HOST'] = \"127.0.0.1\";<BR>include \"/home/user/eFront/www/send_notifications.php\";<BR>?".">
 define("_HOURSAFTEREVENT","час. после события");//hours after event
 define("_HOURSBEFOREEVENT","час. до события");//hours before event
 define("_AVAILABLEFOR","Доступно");//Available for
@@ -3604,7 +3604,7 @@ define("_IMPORTEDUSER","Импортированный пользователь"
 define("_USERSTOCOURSES","Пользователи на курсы");//Users to courses
 define("_USERSTOGROUPS","Пользователи в группы");//Users to groups
 define("_IMPORTANYTHING","Любые распознаваемые");//Anything recognized
-define("_DATATOIMPORT","Данные для импорта");//Data to import
+define("_DATATOIMPORT","Данные для импортирования");//Data to import
 define("_SUCCESSFULLIMPORTS","успешный импорт");//successfull imports
 define("_FAILEDIMPORTS","неудачный импорт");//failed imports
 define("_REPLACEDUSER","Обновленный пользователь");//Updated user
@@ -3617,7 +3617,8 @@ define("_USERSTOSKILLS","Пользователи к навыкам");//Users to
 define("_DATATOEXPORT","Данные для экспорта");//Data to export
 define("_MANDATORYFIELDS","Обязательные поля");//Mandatory fields
 define("_OPTIONALFIELDS","Необязательные поля");//Optional fields
-define("_CSVIMPORTEXPLAINATION","Предоставьте файл со строкой заголовка, содержащей все обязательные и опциональные названия полей из приведенных ниже в любом порядке для каждого типа импорта. Заголовок каждой колонки указывает на ее значение. Нераспознанные колонки будут пропущены, без последствий для остальных.");//Provide a file with a header line containing for each import type, all mandatory and any optional field titles from the ones provided below in any order. The title of each column denotes its meaning. Unrecognized columns will be ommitted, without affecting the rest of the procedure.
+define("_CSVIMPORTEXPLAINATION","Предоставьте файл со строкой заголовка, содержащей все обязательные и необезательные названия полей из приведенных ниже в любом порядке для каждого типа импорта. Заголовок каждой колонки указывает на ее значение. Нераспознанные колонки будут пропущены без последствий для остальных."); //Provide a file with a header line containing for each import type, all mandatory and any optional field titles from the ones provided below in any order. The title of each column denotes its meaning. Unrecognized columns will be ommitted, without affecting the rest of the procedure.
+
 define("_NEWJOBASSIGNMENT","Описание назначения новой должности");//New job description assignment
 define("_NEWSKILLASSIGNMENT","Назначение нового навыка");//New skill assignment
 define("_REPLACEDEXISTINGBRANCH","Заменено существующее подразделение");//Replaced existing branch
@@ -4145,7 +4146,7 @@ define("_CHECKJAVA","Проверка наличия Java-плагина");//Che
 define("_CHECKJAVAFAILED","Java-плагин не установлен");//Java plugin is not installed (New)
 define("_LOADVIDEOJS","Загрузить videojs");//Load videojs (New)
 define("_SENDMODE","Режим отправки");//Send mode (New)
-define("_EMAILANDPM","Электронная почта и личные сообщения");//Email and personal message (New)
+define("_EMAILANDPM","E-mail и личные сообщения");//Email and personal message (New)
 define("_ACTIVETIMEINLESSON","Активное время на уроке");//Active time in lesson (New)
 define("_TOTALACTIVELESSONTIME","Общее активное время урока");//Total active lesson time (New)
 define("_ACTIVELESSONTIMES","Активное время урока");//Active lesson times (New)
