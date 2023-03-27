@@ -777,7 +777,7 @@ define("_READ","Читать");//Read
 define("_UNREAD","Непрочитанные");//Unread
 define("_SUCCESFULLYADDEDROOM","Канал успешно добавлен");//Successfully added room
 define("_AND","и");//and
-define("_TRUEFALSE","Верно/Неверно");//True/False
+define("_TRUEFALSE","Верно / Неверно");//True/False
 define("_DROPDOWN","Выберите из списка");//Select from list
 define("_TRUE","Верно");//True
 define("_FALSE","Неверно");//False
@@ -807,7 +807,7 @@ define("_UPDATEDIRECTIONS","Изменить категории");//Edit categor
 define("_PARENTDIRECTIONS","Родительская категория");//Parent category
 define("_AREYOUSUREYOUWANTTODELETEDIRECTION","Вы действительно хотите удалить категорию?");//Are you sure you want to delete the category?
 define("_YOUMUSTDELETEALLLESSONSANDSUBDIRECTIONSINTHISDIRECTIONBEFOREDELETINGIT","Вы должны удалить все уроки и все подкатегории, которые принадлежат к этой категории, прежде чем удалить его");//You must delete all lessons and all subcategories that belong to this category before deleting it
-define("_ROOTDIRECTION","---- Корневая категория ----");//----Root category----
+define("_ROOTDIRECTION","Корневая категория");//----Root category----
 define("_CHECK","Выбрать");//Check
 define("_REQUIREDNOTE","* Обязательные поля");//*Mandatory fields
 define("_BEFOREJAVASCRIPTERROR","Произошли следующие ошибки:");//The following errors occured:
@@ -822,7 +822,7 @@ define("_REPEATPASSWORD","Повторите пароль");//Repeat password
 define("_TERMS","Условия предоставления услуг");//Terms of Service
 define("_REGISTRATIONFAILEDCONTACTADMIN","Ошибка при регистрации. Обратитесь к системному администратору.");//Registration failed. Please contact the system administrator.
 define("_THELOGIN","Имя пользователя");//The user name
-define("_THEEMAIL","e-mail");//The email
+define("_THEEMAIL","Е-mail");//The email
 define("_PASSWORDMUSTBE6CHARACTERS","Пароль должен быть не менее 6 символов");//Password must be at least %x characters
 define("_DEFAULTCONTACTMESSAGE","Я хотел бы получать информацию о содержании и спецификации уроков, а также о требованиях к участию в обучении");//I would like to be informed on the content and specifications of your lessons, as well as on any course participation requirements
 define("_DEFAULTTERMSOFUSAGE","Условия пользования платформы eFront<br><br> Каждый регистрирующийся в настоящей системе электронного обучения пользователь должен прочитать и соблюдать следующие условия надлежащего использования.<br><br> 1. Запрещается использовать систему в целях, не предусматривающих обучения, как например: Продвижение товаров или услуг или любая комбинация из них, личная или рекламная деятельность третьих лиц, оскорбление других лиц, являются они зарегистрированными пользователями системы или нет");//\tTerms of usage\n\nEvery user registering to the present e-learning system must read and comply with the following terms of proper usage.\n\n1. It is forbidden to use the system for reasons other than performing a learning procedure, as for example: Promotion of products or services or any combination of these, personal or other person promotional practices, affront to other person, either registered system users or not
@@ -877,7 +877,7 @@ define("_SELECTALL","Выделить все");//Select all
 define("_SURVEYINFO","Подзаголовок опроса");//Subtitle for the survey
 define("_SURVEYINTROTEXT","Вводный текст опроса");//Survey introductory text
 define("_SURVEYENDTEXT","Завершающий текст опроса");//Survey ending text
-define("_YES_NO","Да/Нет");//Yes/No
+define("_YES_NO","Да / Нет");//Yes/No
 define("_SURVEYQUESTIONMULTIPLEONE","Множественный выбор - один ответ");//Multiple choices-one answer
 define("_SURVEYQUESTIONMULTIPLEMANY","Множественный выбор - несколько ответов");//Multiple choices-multiple answers
 define("_ENTERMAILMESSAGE","Сообщение");//Message
@@ -4302,50 +4302,50 @@ define("_AFORUMDOESNOTEXISTFORTHISLESSONCREATE", "Форум для этого �
 define("_TESTGLOSSARY","Глоссарий по тестам");//Glossary on Tests
 define("_PROFESSORSFEEDBACK","Отзыв преподавателя");//Professor's feedback
 define("_PROFESSORSFEEDBACKANDRESPONSE","Отзывы и ответ преподавателя");//Professor's feedback and response
-define("_EXPORTTOXLSALL","Export all pages to xls");
+define("_EXPORTTOXLSALL","Экспорт всех страниц в xls"); //Export all pages to xls
 define("_DOYOUWANTRECREATEFILE","Вы хотите восстановить файл на сервере? Нажмите кнопку Отмена, чтобы загрузить существующий файл");//Do you want recreate the file on server? Click Cancel to download the existing file
-define("_ONLINEUSERSMAIL","You reached the online users threshold");
-define("_ONLINEUSERSMAILBODY", "Dear %w,<br/>You have reached %x concurrent online users for %y at %z");
+define("_ONLINEUSERSMAIL","Вы достигли порогового значения для онлайн-пользователей"); // You reached the online users threshold
+define("_ONLINEUSERSMAILBODY", "Уважаемый %w,<br/> Вы достигли %x одновременных онлайн-пользователей для %y на %z"); // Dear %w,<br/>You have reached %x concurrent online users for %y at %z
 define("_ONLINEUSERSTHRESHOLD","Пороговое значение одновременных онлайн-пользователей");//Concurrent online users threshold
 define("_ONLINEUSERSTHRESHOLDNOTE","При достижении порогового значения администратору будет отправлено электронное письмо");//An e-mail will be sent to administrator when threshold will be reached
 define("_TEST_MARKED", "Выделенный тест");//Test marked
-define("_NOTAPPLIEDFORONLYFORWARD", "Is not applied for move only forward tests");
-define("_LESSON_PROGRESS_RESET", "Lesson progress reset");
-define("_COURSE_PROGRESS_RESET", "Course progress reset");
-define("_YOUHAVETIMESREMAINING","You can view this content <span id = 'scorm_times'>%d</span> times more");
+define("_NOTAPPLIEDFORONLYFORWARD", "Не применяется для тестов с перемещением только вперед"); // Is not applied for move only forward tests
+define("_LESSON_PROGRESS_RESET", "Сброс хода урока"); // Lesson progress reset
+define("_COURSE_PROGRESS_RESET", "Сброс хода прохождения курса"); // Course progress reset
+define("_YOUHAVETIMESREMAINING","You can view this content <span id = 'scorm_times'>%d</span> раз больше"); // Вы можете просмотреть этот контент <span id = 'scorm_times'>%d</span> times more
 define("_YOUCANNOTACCESSTHISCONTENTANYMORE", "You cannot access this content any more");
 define("_SCORMTIMES", "Limit accesses to SCORM content");
-define("_DONTCLOSEORNAVIGATEAWAY", "The content has opened in a new window. Please don't close or navigate away from this window.");
+define("_DONTCLOSEORNAVIGATEAWAY", "Содержимое открылось в новом окне. Пожалуйста, не закрывайте это окно и не отходите от него."); // The content has opened in a new window. Please don't close or navigate away from this window.
 define("_SCORMLOGGING", "Log SCORM communication in a disk file");
 define("_WASBEINGRESETLESSONPROGRESS", "was being reset in lesson progress for");
 define("_WASBEINGRESETCOURSEPROGRESS", "was being reset in course progress for");
-define("_BLOCKEMAILS", "Block emails");
-define("_TOGGLERANDOMTEST", "Toggle random test");
-define("_USEIT","Используй это");//Use it
-define("_INCLUDEQUESTIONSFROMSUBUNITS", "Include units from subunits");
-define("_WASBEINGRESETCOURSEPROGRESS", "was being reset in course progress for");
-define("_BLOCKEMAILS", "Block emails");
-define("_WASACTIVATEDFROMTHESYSTEM", "was activated from the system");
-define("_WASARCHIVEDFROMTHESYSTEM"," was archived from the system");
-define("_WASUNARCHIVEDFROMTHESYSTEM","was unarchived from the system");
-define("_USERARCHIVED", "User archived");
-define("_USERUNARCHIVED", "User unarchived");
-define("_LINKEDTESTSCANNOTBEEDITTED", "Linked tests can not be editted");
-define("_LINKEDQUESTIONSCANNOTBEEDITTED", "Linked questions can not be editted");
-define("_COURSESTOBRANCHES", "Courses to branches");
-define("_NEWCOURSETOBRANCHASSIGNMENT","New course to branch assignment");
-define("_FORUMMESSAGEEDITEDBY", "Edited by");
-define("_LIMITUSERANSWERS", "Limit user answers");
-define("_AFORUMDOESNOTEXISTFORTHISLESSON", "There is no forum existing for this lesson");
-define("_GRID", "Grid");
-define("_HOTSPOT", "Hotspot");
-define("_SELECTIMAGE", "Select image");
-define("_SELECTIMAGETOMARKAREA", "Select image to mark area");
-define("_ARCHIVED", "Archived");
-define("_NONARCHIVED", "Not archived");
-define("_REPLYCOORDINATE","Your coordinate");
+define("_BLOCKEMAILS", "Блокировать электронные письма"); // Block emails
+define("_TOGGLERANDOMTEST", "Переключить случайный тест"); // Toggle random test
+define("_USEIT","Используй это");// Use it
+define("_INCLUDEQUESTIONSFROMSUBUNITS", "Включать единицы из подразделений"); // Include units from subunits
+define("_WASBEINGRESETCOURSEPROGRESS", "был сброшен в ходе прохождения курса для"); //was being reset in course progress for
+define("_BLOCKEMAILS", "Блокировать электронные письма"); // Block emails
+define("_WASACTIVATEDFROMTHESYSTEM", " был активирован из системы"); // was activated from the system
+define("_WASARCHIVEDFROMTHESYSTEM"," был заархивирован из системы"); // was archived from the system
+define("_WASUNARCHIVEDFROMTHESYSTEM"," был разархивирован из системы"); // was unarchived from the system
+define("_USERARCHIVED", "Пользователь заархивирован"); // User archived
+define("_USERUNARCHIVED", "Пользователь неархивирован"); // User unarchived
+define("_LINKEDTESTSCANNOTBEEDITTED", "Связанные тесты не могут быть отредактированы"); // Linked tests can not be editted
+define("_LINKEDQUESTIONSCANNOTBEEDITTED", "Связанные вопросы не могут быть отредактированы"); // Linked questions can not be editted
+define("_COURSESTOBRANCHES", "Курсы для ветвей"); // Courses to branches
+define("_NEWCOURSETOBRANCHASSIGNMENT","Новый курс для назначения в ветку"); // New course to branch assignment
+define("_FORUMMESSAGEEDITEDBY", "Отредактировано"); // Edited by
+define("_LIMITUSERANSWERS", "Ограничивать ответы пользователей"); // Limit user answers
+define("_AFORUMDOESNOTEXISTFORTHISLESSON", "Для этого урока не существует форума"); // There is no forum existing for this lesson
+define("_GRID", "Сетка"); // Grid
+define("_HOTSPOT", "Точка доступа"); // Hotspot
+define("_SELECTIMAGE", "Выберите изображение"); // Select image
+define("_SELECTIMAGETOMARKAREA", "Выберите изображение, чтобы отметить область"); // Select image to mark area
+define("_ARCHIVED", "Архивировано"); // Archived
+define("_NONARCHIVED", "Не архивировано"); // Not archived
+define("_REPLYCOORDINATE","Ваши координаты"); // Your coordinate
 define("_SHOWINACTIVECOURSESINREPORTS","Показывать неактивные курсы в отчетах");//Show inactive courses in reports
-define("_EXCLUDESHUFFLEFROMQUESTION","Exclude shuffle answers from question");
+define("_EXCLUDESHUFFLEFROMQUESTION","Исключать ответы в случайном порядке из вопроса"); // Exclude shuffle answers from question
 define("_EXCLUDESHUFFLEFROMQUESTIONEXAPLANATION","Check this if shuffling answers does not make sense for this question");
 define("_SAML", "Saml");
 define("_ACTIVATESAML", "Enable SAML support");
