@@ -222,8 +222,8 @@ define("_INACTIVE","Неактивный блок");//Inactive
 define("_CONTENTMANAGEMENT","Материал");//Content
 define("_SCHEDULING","Расписание");//Scheduling
 define("_OFDEVELOPMENT","развитие");//development
-define("_MULTIPLECHOICEONESELECTION","Множественный выбор, один правильный ответ");//Multiple choices, single correct answer
-define("_MULTIPLECHOICEMULTIPLESELECTIONS","Множественный выбор, несколько правильных ответов");//Multiple choices, multiple correct answers
+define("_MULTIPLECHOICEONESELECTION","Единсивенный ответ");//Multiple choices, single correct answer
+define("_MULTIPLECHOICEMULTIPLESELECTIONS","Множественный ответ");//Multiple choices, multiple correct answers
 define("_OFMATCH","соответствия");//matching
 define("_OFEMPTYSPACES","Заполните пропуски");//Fill in the blanks
 define("_LOW","Низкий");//Low
@@ -847,9 +847,9 @@ define("_QUESTIONS","Вопросы");//Questions
 define("_INSERTMULTIPLEQUESTIONS","Вставить множественный выбор");//Insert the multiple choices
 define("_INSERTEXPLANATION","Вставить объяснение");//Insert explanation
 define("_THISQUESTIONIS","Этот вопрос");//This question is
-define("_CREATEEMPTYSPACES","Создать пустоты");//Create empty spaces
+define("_CREATEEMPTYSPACES","Создать пропуски в вопросе");//Create empty spaces
 define("_EMPTYSPACESEXPLANATION","Наберите текст вопроса и везде, где нужно вставить пропуск вставьте ###. Когда вы закончите, нажмите на &quot;Создать пустоты&quot;");//#.   ,   \" \"
-define("_INSERTMATCHCOUPLES","Вставить пары соответствий");//Insert matching pairs
+define("_INSERTMATCHCOUPLES","Укажите пары для сопоставления");//Insert matching pairs
 define("_ADDOPTION","Добавить вариант");//Add option
 define("_GOTOCALENDAR","Перейти к календарю");//Go to calendar
 define("_EXPANDALL","Развернуть все");//Expand all
@@ -1691,7 +1691,7 @@ define("_AREYOUSUREYOUWANTTODELETEGROUP","Вы действительно хот
 define("_GROUPDELETED","Группа удалена");//The group was deleted
 define("_GROUPFILTER","Фильтр групп");//Group filter
 define("_NOUSERSFOUND","Пользователи не найдены");//No users where found
-define("_SEPARATEALTERNATIVESEXAMPLE","Разделяйте варианты правильных ответов с помощью |, например: Синий|Черный|Белый");//Separate alternative correct answers with |, for example: Blue|Black|White
+define("_SEPARATEALTERNATIVESEXAMPLE","Разделяйте варианты правильных ответов с помощью вертикальной черты «|», например: Синий|Черный|Белый");//Separate alternative correct answers with |, for example: Blue|Black|White
 define("_CREATERANODOMTEST","Создать случайный тест");//Create random test
 define("_USING","Используя");//Using
 define("_EASY","Легкий");//Easy
@@ -1828,7 +1828,7 @@ define("_DOWNLOADEXPORTED","Скачать экспортированный ур
 define("_SUCCESFULLYRESTOREDSYSTEM","Процедура восстановления выполнена");//The restoring procedure completed successfully
 define("_LESSONDOESNOTEXIST","Указанный урок не существует");//The lesson specified does not exist
 define("_UNDOCHANGES","Отменить изменения");//Undo changes
-define("_CONTENTTREEMANAGEMENT","Управление деревом содержимого");//Content tree management
+define("_CONTENTTREEMANAGEMENT","Управление последовательностью тем");//Content tree management
 define("_ORDERWILLPERMANENTLYCHANGE","Эта операция не может быть отменена. Вы уверены?");//This operation will permanently change unit ordering and cannot be undone. Are you sure?
 define("_ERRORLOADINGCONTENT","Ошибка при загрузке материала урока");//Error loading content for lesson
 define("_USERROLE","Роль пользователя");//User role
@@ -3483,7 +3483,7 @@ define("_UPGRADE","Обновление");//Upgrade
 define("_DOWNLOADEXPORTEDCOURSE","Скачать экспортированный курс");//Download exported course
 define("_MAXDISCOUNT100","Максимальная скидка 100%");//The maximum discount is 100%
 define("_REGISTRATIONUPDATE","Регистрация / обновление");//Registration/Update
-define("_ROWS","Строк");//Rows
+define("_ROWS","Строки");//Rows
 define("_COMMANDFAILEDWITHOUTPUT","Сбой команды. Результат выполнения команды:");//The command failed with the following output
 define("_PERHAPSDONTSUPPORTZIP","Возможно ваша система не поддерживает обработку Zip?");//Perhaps your system does not support zip processing?
 define("_TOCREATECOURSEYOUMUSTFIRSTCREATECATEGORY","Чтобы создать курс, вы должны сначала создать категорию");//In order to create a course, you must first create a category
@@ -4028,15 +4028,15 @@ define("_SHOWINCOMPLETEQUESTIONSEACHTIME","Показывать невыполн
 define("_RETAINBESTEXECUTION","Сохранять лучший результат");//Retain best score
 define("_AVERAGETESTSCOREOFACTIVEEXECUTIONS","Средняя оценка теста (с учетом всех активных прохождений теста)");//Average test score (counting each test's active execution)
 define("_SCOREONACTIVEEXECUTION","Оценка за активное прохождение");//score on active execution
-define("_YOUCANUSEASTERISK","Если указать слово, которое заканчивается звездочкой (*), то только указанная часть будет использована. Например, если указать 'учить*', то 'учиться' и 'учить' будет считаться правильным.");//If you specify a word that ends with an asterisk (*), only its first part will be considered. For example, if you specify 'learn*', then both 'learning' and 'learn' will be considered correct.
+define("_YOUCANUSEASTERISK"," Если в отпределённом слове изменяемую часть слова обозначить звёздочкой «*», то во внимании системы будет учета только неизменяемая часть, невыделенная этой звёздочкой. Например, если в слове изменяемую часть слова указать так --> «учить*», то «учиться» и «учить» будет считаться правильным."); //If you specify a word that ends with an asterisk (*), only its first part will be considered. For example, if you specify 'learn*', then both 'learning' and 'learn' will be considered correct.
 define("_COURSELESSONSRULES","Правила изучения курса");//Course lesson rules
 define("_RULESBETWEENCOURSES","Правила между курсами");//Rules between courses
 define("_COURSEDEPENDSON","Курс зависит от");//Course depends on
 define("_YOUCANNOTSETSAMECOURSEASRULE","Вы не можете установить курс как зависящий от себя");//You cannot set the course as a prerequisite of itself
 define("_DISPLAYALTERNATIVESINSELECTBOX","Показать варианты в окне выбора");//Display alternatives in select box
-define("_CHECKINGTHISWILLDISPLAYLISTBOXFIRSTISCORRECT","При тестировании появится список всех вариантов, вместо текстового поля. В этом случае, только первый вариант будет считаться правильным.");//Checking this will display a list box with all the alternatives, instead of a text box. In this case, only the first option is considered correct
+define("_CHECKINGTHISWILLDISPLAYLISTBOXFIRSTISCORRECT"," Поставив галочку, - появится список со всеми альтернативами, вместо текстового поля"); // Checking this will display a list box with all the alternatives, instead of a text box. In this case, only the first option is considered correct
 define("_SHOWANSWERSIFSTUDENTPASSED","Показать правильные ответы, только при успешном выполнении теста");//Show correct answers only if student passed the test
-define("_OPTIONSCHECKER","Проверка настроек");//Settings checker
+define("_OPTIONSCHECKER","Контролёр настроек");//Settings checker
 define("_CHECKBROWSER","Проверка браузера");//Checking browser
 define("_CHECKRESOLUTION","Проверка разрешения экрана");//Checking screen resolution
 define("_CHECKPOPUPBLOCKER","Проверка на блокирование всплывающих окон");//Checking for Popup blocker
@@ -4081,7 +4081,7 @@ define("_CLICKHERETOREDELETEOLDTOKENS","Удалить токены API стар
 define("_ADDNEWCONDITION","Добавить новое условие");//Add new condition
 define("_CLICKHERETOREDELETEADVANCEDREPORTVIEWS","Удалить расширенные представления отчета");//Delete advanced report views
 define("_STANDALONELESSONSAVERAGE","Средний балл по всем отдельным урокам");//Average score in all standalone lessons (New)
-define("_SCORECALCULATIONMODE","Режим расчета оценки");//Score calculation mode (New)
+define("_SCORECALCULATIONMODE","Режим подсчёта баллов");//Score calculation mode (New)
 define("_TRIGGERINGUSERS","Пользователь, вызвавший событие");//Triggering user&#039;s (New)
 define("_MODIFIED","Измененный");//Modified (New)
 define("_USERSSELFENROLL","Пользователи могут добавлять себя");//Users can add themselves (New)
@@ -4233,7 +4233,7 @@ define("_DEAR","Уважаемый");//
 define("_SETCERTIFICATEDATEFORCOMPLTETED","Установить дату сертификатов равной дате завершения");//
 define("_VIEWCOURSECERTIFICATE","Сертификат курса");//
 define("_SETSHOWNUSERSSTATUSCOMPLETED","Установить для всех перечсленных пользователей как выполненный");//
-define("_FREETEXTFILEUPLOAD","Загрузка файла / Произвольного текста");//
+define("_FREETEXTFILEUPLOAD","Загрузка файла / текста");//
 define("_FREETEXTINPUTTYPE","Тип произвольного текста");//
 define("_TEXTAREAANDUPLOAD","Текстовая область и поле загрузки");//
 define("_YOUAREREACHINGYOURSUBSCRIPTIONLIMIT","Достигнут предел количества подписок");//
@@ -4242,7 +4242,7 @@ define("_THANKYOUFORCONTACTINGUS","Благодарим вас за обраще
 define("_THANKYOUFORCONTACTINGUSBODY","Мы получили ваше сообщение и ответим в ближайшее время. Ниже приведен текст вашего сообщения.");//
 define("_INCLUDETIME","Включить время");//
 define("_AVERAGECOMPLETIONTIME","Среднее время выполнения");//
-define("_YOUCANUSENUMBERRANGE","Можно использовать диапазон значений. Например, если указать 1-10 как правильный ответ, то любое значение ответа от 1 до 10 будет считаться правильным.");//
+define("_YOUCANUSENUMBERRANGE","Можно использовать диапазон значений, например, если указать 1-10, как правильные ответы, то любое значение ответа от 1 до 10 будет считаться правильным.");//
 define("_SETALLTOCOMPLETED","Отметить как выполненный");//
 define("_SETALLTOUNCOMPLETED","Отметить все как выполненные");//
 define("_YOUHAVETOUSEACSVFILE","Необходим файл CSV");//
@@ -4338,7 +4338,7 @@ define("_FORUMMESSAGEEDITEDBY", "Отредактировано"); // Edited by
 define("_LIMITUSERANSWERS", "Ограничивать ответы пользователей"); // Limit user answers
 define("_AFORUMDOESNOTEXISTFORTHISLESSON", "Для этого урока не существует форума"); // There is no forum existing for this lesson
 define("_GRID", "Сетка"); // Grid
-define("_HOTSPOT", "Точка доступа"); // Hotspot
+define("_HOTSPOT", "Точка на изображении"); // Hotspot
 define("_SELECTIMAGE", "Выберите изображение"); // Select image
 define("_SELECTIMAGETOMARKAREA", "Выберите изображение, чтобы отметить область"); // Select image to mark area
 define("_ARCHIVED", "Архивировано"); // Archived
@@ -4346,7 +4346,7 @@ define("_NONARCHIVED", "Не архивировано"); // Not archived
 define("_REPLYCOORDINATE","Ваши координаты"); // Your coordinate
 define("_SHOWINACTIVECOURSESINREPORTS","Показывать неактивные курсы в отчетах");//Show inactive courses in reports
 define("_EXCLUDESHUFFLEFROMQUESTION","Исключать ответы в случайном порядке из вопроса"); // Exclude shuffle answers from question
-define("_EXCLUDESHUFFLEFROMQUESTIONEXAPLANATION","Check this if shuffling answers does not make sense for this question");
+define("_EXCLUDESHUFFLEFROMQUESTIONEXAPLANATION","Выделите, если перетасовка ответов не имеет смысла для этого вопроса"); // Check this if shuffling answers does not make sense for this question
 define("_SAML", "Saml");
 define("_ACTIVATESAML", "Enable SAML support");
 define("_IDENTITYPROVIDER", "Identity provider");
@@ -4373,7 +4373,7 @@ define("_ASSIGNMENTREFUSEDBY", "было отказано руководител
 define("_SUPERVISORREFUSAL", "Отказ руководителя");//Supervisor refusal
 define("_VIEWPDFINIOS", "Просмотр формата .pdf в iOS");//View pdf in iOS
 define("_REFRESHPAGE", "Обновить страницу");//Refresh page
-define("_INCASEYOUUPLOADEDIMAGE", "in case you just uploaded an image");
+define("_INCASEYOUUPLOADEDIMAGE", "в случае, если вы только что загрузили изображение"); // in case you just uploaded an image
 define("_ALLDATASYSTEMBACKUP","All data backup (system call)");
 define("_ACCEPTTERMSCOMPLETION", "Принять условия");//Accept terms
 define("_NOTACCEPTED", "Не принято"); //Not accepted
