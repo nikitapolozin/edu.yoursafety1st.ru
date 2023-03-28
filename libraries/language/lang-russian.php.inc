@@ -1012,7 +1012,7 @@ define("_WITHSCORE","с баллом");//with score
 define("_NOCONDITIONSSET","Нет условий для этого урока");//There are no completion rules set for this lesson
 define("_CONDITIONS","условия");//completion rules
 define("_RESUMELESSON","Возобновить урок");//Resume lesson
-define("_STARTLESSON","Начните урок");//Start lesson
+define("_STARTLESSON","Старт");//Start lesson
 define("_TRACKING","Отслеживание");//Tracking
 define("_FORMATCERTIFICATE","Формат сертификата");//Format certificate
 define("_FORMATCERTIFICATETEMPLATE","Формат шаблона сертификата");//Format certificate template
@@ -3717,7 +3717,7 @@ define("_PHPLIVEDOCXCONFIGURATIONFILEISNOTWRITABLE","Файл конфигура
 define("_RESETPROGRESSDATA","Сброс результатов успеваемости");//Reset progress data
 define("_DEBUGMODE","Режим отладки");//Debug mode
 define("_GENERALSETTINGS","Общие настройки");//General settings
-define("_FINISHLESSONMESSAGE","Вы закончили урок. Нажав одно из кнопок ниже Вы сможете, соответственно, перейти к:");//Congratulations! You have finished the lesson. Please select a place to go now:
+define("_FINISHLESSONMESSAGE","Вы окончили обучение . Нажав на одну из кнопок ниже Вы сможете перейти к:");//Congratulations! You have finished the lesson. Please select a place to go now:
 define("_NEXTLESSON","Следующий урок");//Next lesson
 define("_LESSONFINISHED","Урок завершен");//Lesson finished
 define("_YOUAREATTHELASTLESSONYOUMAYVISIT","Вы находитесь на последнем доступном уроке");//You are at the last lesson you may visit
