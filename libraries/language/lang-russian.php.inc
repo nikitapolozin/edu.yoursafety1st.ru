@@ -3717,11 +3717,11 @@ define("_PHPLIVEDOCXCONFIGURATIONFILEISNOTWRITABLE","Файл конфигура
 define("_RESETPROGRESSDATA","Сброс результатов успеваемости");//Reset progress data
 define("_DEBUGMODE","Режим отладки");//Debug mode
 define("_GENERALSETTINGS","Общие настройки");//General settings
-define("_FINISHLESSONMESSAGE","Поздравляем! Вы закончили урок. Вы можете перейти к:");//Congratulations! You have finished the lesson. Please select a place to go now:
+define("_FINISHLESSONMESSAGE","Вы закончили урок. Нажав одно из кнопок ниже Вы сможете, соответственно, перейти к:");//Congratulations! You have finished the lesson. Please select a place to go now:
 define("_NEXTLESSON","Следующий урок");//Next lesson
 define("_LESSONFINISHED","Урок завершен");//Lesson finished
 define("_YOUAREATTHELASTLESSONYOUMAYVISIT","Вы находитесь на последнем доступном уроке");//You are at the last lesson you may visit
-define("_FEEDBACKISDONE","Отзыв сделан");//Feedback is done
+define("_FEEDBACKISDONE","Отзыв сфорсирован");//Feedback is done
 define("_PROCEEDTOFEEDBACK","Перейти к отзыву");//Proceed to feedback
 define("_SUCCESFULLYMODIFIEDFEEDBACK","Успешное изменение отзыва");//Successfully modified feedback
 define("_FEEDBACKSTARTEDAT","Отзыв начат");//Feedback started at
