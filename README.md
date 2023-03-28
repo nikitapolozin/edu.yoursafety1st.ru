@@ -15,7 +15,3 @@ Pedagogical concepts: Integrated to eFront are sound pedagogical concepts that g
 Open Source: eFront is offered as an open source software. Download it for free, customize it to your needs, add new functionalites and share them with the community. Although distributed as free software, eFront is being supported by a professional team of highly skilled developers.
 
 Complete: eFront includes a wide variety of components that help you create your lesson structure and add content, build online-tests, communicate with others, track users history and progress,  conduct surveys,  assign projects, and create certifications. And this list just scratches the surface of the system.
-
-Visit us for more info and platform updates at:
-http://www.efrontlearning.net
-
