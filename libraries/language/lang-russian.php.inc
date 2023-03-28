@@ -1589,7 +1589,7 @@ define("_HISTORYOFEMPLOYEE","История сотрудника");//History of 
 define("_HISTORY","История");//History
 define("_NOANNOUNCEMENTSPOSTEDADMIN","Нет размещеных объявлений");//No announcements
 define("_SEPARATEMULTIPLEUSERS","Разделяйте нескольких получателей с помощью ;");//Separate multiple recipients with ;
-define("_STARTTYPINGFORRELEVENTMATCHES","Начните вводить текст, чтобы получить соответствующие совпадения ( % <= «все» )");//Start typing to get relevant matches (Type % for all)
+define("_STARTTYPINGFORRELEVENTMATCHES","Начните вводить текст, чтобы получить соответствующие совпадения ( «%» = «все» )");//Start typing to get relevant matches (Type % for all)
 define("_ADVANCEDSEARCH","Дополнительные параметры поиска");//Advanced search options
 define("_REGISTERADVANCEDSEARCHFIELDS","Регистрация дополнительных полей поиска");//Register advanced search fields
 define("_EDITBRANCH","Изменить подразделение");//Edit branch
