@@ -229,7 +229,7 @@ define("_OFEMPTYSPACES","Заполните пропуски");//Fill in the bla
 define("_LOW","Низкий");//Low
 define("_MEDIUM","Средний");//Medium
 define("_HIGH","Высокий");//High
-define("_PERIODSPERSTUDENT","Периодов на одного учащегося");//Periods per student
+define("_PERIODSPERSTUDENT","Периодов на одного слушателя");//Periods per student
 define("_NETMEETINGSUPPORT","Поддержка Netmeeting");//Netmeeting support
 define("_IFSTUDENTHASNOTSEEN","Если учащийся еще не просмотрел");//If student has not seen
 define("_IFSTUDENTHASNOTPASSED","Если учащийся еще не прошел");//If student has not passed
@@ -388,7 +388,7 @@ define("_IMPORTOFUNIT","Импортировать блок");//Import of unit
 define("_SELECTFILE","Выберите файл");//Select a file
 define("_THESYSTEMSUGGESTSTHEFILES","Система предлагает файлы");//The systems suggests the files
 define("_CHECKIFITISASINGLESCO","Проверьте, является ли он единственным SCO");//Check if it is a single SCO
-define("_CHOOSESTUDENT","Выберите учащегося");//Select a student
+define("_CHOOSESTUDENT","Выберите слушателя");//Select a student
 define("_NOSCORMDATAFOUNDFORTHISSTUDENT","Нет данных SCORM для этого студента");//No SCORM data found for this student
 define("_ENTRY","Запись");//Entry
 define("_TOTALTIME","Общее время");//Total time
@@ -1058,7 +1058,7 @@ define("_ACCESSPERLESSON","Количество посещений каждог�
 define("_NOFILESFOUNDDIGITALLIBRARY","Нет файлов в библиотеке файлов");//There aren&#039;t any files in the digital library
 define("_BLANKFORUNLIMITED","Оставьте пустым, чтобы не ограничивать");//Leave blank for unlimited
 define("_CERTIFICATES","Сертификаты");//Certificates
-define("_NOUSERDATAFOUND","Нет данных об успеваемости учащегося");//No user progress data found
+define("_NOUSERDATAFOUND","Нет данных об успеваемости слушателя");//No user progress data found
 define("_ISSUECERTIFICATE","Выпустить сертификат");//Issue certificate
 define("_LESSONFILES","Файлы урока");//Lesson files
 define("_TOTALACCESSTIME","Общее время доступа");//Total access time
@@ -1164,7 +1164,7 @@ define("_AREYOUSURE","Вы уверены?");//Are you sure?
 define("_CHECKAGAIN","Проверьте еще раз");//Check again
 define("_GENERICQUERIES","Общие вопросы");//Generic queries
 define("_SENDINFOVIAEMAIL","Отправить информацию об учетной записи на электронную почту");//Send login information in email account
-define("_NOONEHASBEENASSIGNEDTHISPROJECT","Этот проект еще не был назначен ни одному учащемуся");//This project has not been assigned to any student
+define("_NOONEHASBEENASSIGNEDTHISPROJECT","Этот проект еще не был назначен ни одному слушателю");//This project has not been assigned to any student
 define("_PROJECTINFO","Информация о проекте");//Project information
 define("_ANNOUNCEMENTGO","Перейти на страницу объявлений");//Go to announcements page
 define("_PROJECTAVERAGESCOREFORLESSON","Средний балл по проектам урока");//Average score for lesson&#039;s projects
@@ -1393,14 +1393,14 @@ define("_USERTYPES","Типы пользователей");//User types
 define("_SMTPUSER","Учетная запись SMTP");//SMTP user
 define("_USERCREATED","Пользователь создан");//User created
 define("_USERTRAFFIC","Активность пользователя");//User&#039;s traffic
-define("_USERSPROGRESS","Успеваемость учащегося");//Users status
+define("_USERSPROGRESS","Успеваемость слушателей");//Users status
 define("_THEUSERHASNOTCOMPLETEDTHELESSON","Пользователь еще не завершил этот урок");//The user has not completed this lesson yet
 define("_MOSTACTIVEUSERS","Самые активные пользователи");//Most active users
 define("_5MOSTACTIVEUSERS","5 наиболее активных пользователей");//5 most active users
 define("_NOUSERFORTHISSURVEYYET","Еще нет пользователей для этого опроса.");//No users for this survey yet.
 define("_SHOWALLUSERS","Показать всех пользователей");//Show all users
 define("_THEREARENOLESSONSDEFINEDFORTHEUSERLANGUAGE","Нет уроков, подходящих для языка этого пользователя");//There are no lessons defined for the users&#39;s language
-define("_VIEWUSERLESSONPROGRESS","Посмотреть успеваемость учащегося на уроке");//View the student progress throughout the lesson
+define("_VIEWUSERLESSONPROGRESS","Посмотреть успеваемость слушателя на уроке");//View the student progress throughout the lesson
 define("_USERCAPITAL","Пользователь");//User
 define("_USERSDATA","Импорт / Экспорт данных о пользователях");//Import/Export users
 define("_ORPHANUSERFOLDERSCHECK","Проверить папки на наличие пользователя");//Orphan user folders check
@@ -1409,9 +1409,9 @@ define("_FOLDERSWITHOUTAUSERASSOCIATED","Следующие папки не им
 define("_USERSWITHOUTAFOLDER","Следующие пользователи не имеют папок");//The following users do not have a folder
 define("_PEMANENTLYDELETEFOLLOWINGUSERS","Эта действие удалит следующих пользователей");//This action will permanently delete the following users
 define("_CREATEFOLLOWINGUSERFOLDERS","Эта действие создаст папки для следующих пользователей");//This action will create folders for the following users
-define("_USERPROGRESS","Успеваемость учащегося");//User progress
+define("_USERPROGRESS","Успеваемость слушателя");//User progress
 define("_LOGOUTUSERS","Закрыть доступ для онлайн-пользователей");//Log out users online
-define("_USERTRACKINGINFORMATION","Информация о действиях учащегося");//User tracking information
+define("_USERTRACKINGINFORMATION","Информация о действиях слушателя");//User tracking information
 define("_MAILUSERACTIVATION","Активация пользователя по E-mail");//User activation by email
 define("_USERSMAYADDFORUMS","Пользователи могут добавлять форумы");//Users may add forums
 define("_NONEWAPPLICATIONS","Нет заявок от новых пользователей");//No application from new users
@@ -1427,7 +1427,7 @@ define("_PROFESSORSINFO","Информация о преподавателе");/
 define("_EMPLOYEEWASASSIGNEDGROUP","Пользователь был включен в группу");//User was assigned to group
 define("_EMPLOYEEWASRELEASEDFROMGROUP","Пользователь был исключен из группы");//User was released from group
 define("_PROFESSORCAPITAL","Преподаватель");//Professor
-define("_STUDENTROLE","Роль учащегося");//Student role
+define("_STUDENTROLE","Роль слушателя");//Student role
 define("_PROFESSORROLE","Роль преподавателя");//Professor role
 define("_COURSES","Курсы");//Courses
 define("_COURSEDELETED","Курс удален");//Course deleted
@@ -1828,7 +1828,7 @@ define("_DOWNLOADEXPORTED","Скачать экспортированный ур
 define("_SUCCESFULLYRESTOREDSYSTEM","Процедура восстановления выполнена");//The restoring procedure completed successfully
 define("_LESSONDOESNOTEXIST","Указанный урок не существует");//The lesson specified does not exist
 define("_UNDOCHANGES","Отменить изменения");//Undo changes
-define("_CONTENTTREEMANAGEMENT","Управление последовательностью тем");//Content tree management
+define("_CONTENTTREEMANAGEMENT","Иерархия тем / уроков");//Content tree management
 define("_ORDERWILLPERMANENTLYCHANGE","Эта операция не может быть отменена. Вы уверены?");//This operation will permanently change unit ordering and cannot be undone. Are you sure?
 define("_ERRORLOADINGCONTENT","Ошибка при загрузке материала урока");//Error loading content for lesson
 define("_USERROLE","Роль пользователя");//User role
@@ -1970,7 +1970,7 @@ define("_COURSEMETADATA","Метаданные курса");//Course metadata
 define("_COURSESTATUS","Статус курса");//Course status
 define("_LESSONSCOMPLETED","Выполненные уроки");//Completed lessons
 define("_COURSESCORE","Балл курса");//Course score
-define("_VIEWUSERCOURSEPROGRESS","Посмотреть успеваемость учащегося на протяжении курса");//View the user progress throughout the course
+define("_VIEWUSERCOURSEPROGRESS","Посмотреть успеваемость слушателя на протяжении курса");//View the user progress throughout the course
 define("_COURSERULES","Правила курса");//Course rules
 define("_INFORMATIONFORCOURSE","Информация для курса");//Information for course
 define("_CERTIFICATESFORCOURSE","Сертификаты курса");//Certificates for course
@@ -2193,7 +2193,7 @@ define("_BACKUPRESTORE","Сохранение/восстановление");//B
 define("_CONFIGURATIONOPTIONS","Параметры конфигурации");//Configuration options
 define("_UNAUTHORIZEDACCESS","У вас нет прав доступа к этому разделу");//You do not have permission to access this section
 define("_LESSONUSER","Пользователь урока");//Lesson user
-define("_PROGRESSFORUSER","Успеваемость учащегося");//Progress for user
+define("_PROGRESSFORUSER","Успеваемость слушателя");//Progress for user
 define("_LESSONSORDER","Порядок уроков");//Lessons order
 define("_COURSEUSER","Пользователь курса");//Course user
 define("_COURSELESSON","Урок курса");//Course lesson
@@ -2259,7 +2259,7 @@ define("_SHOWALLSOLVEDSKILLGAPTESTS","Показать все пройденны
 define("_DELETESKILLGAPTESTRECORD","Удалить запись теста на наличие навыков");//Delete skill gap test record
 define("_ASSIGNTOALLNEWSTUDENTS","Назначить всем новым студентам");//Assign to all new students
 define("_AUTOMATICALLYASSIGNLESSONS","Автоматически назначить уроки");//Automatically assign lessons
-define("_AUTOMATICASSIGNMENTINFO","После выполнения теста, учащемуся будут автоматически назначены все<br>уроки и курсы, соответствующие его/ее образовательным потребностям");//After completing the test, a student will be automatically assigned with all<br> lessons and courses matching his or her educational needs
+define("_AUTOMATICASSIGNMENTINFO","После выполнения теста, слушателю будут автоматически назначены все<br>уроки и курсы, соответствующие его/ее образовательным потребностям");//After completing the test, a student will be automatically assigned with all<br> lessons and courses matching his or her educational needs
 define("_SKILLGAPTESTCOMPLETEDSUCCESSFULLYANDTHECORRESPONDING","Тест на наличие навыков выполнен, и соответствующие");//Skill gap test completed successfully and the corresponding
 define("_HAVEBEENASSIGNED","были назначены вам");//have been assigned to you
 define("_SKILLGAPTESTRESULTS","Результаты теста на наличие навыков");//Skill gap test results
@@ -2865,7 +2865,7 @@ define("_HIDESIDEBARIMAGES","Спрятать изображения боков�
 define("_RECIPIENTSSURNAME","Фамилия получателя");//Recipient&#039;s surname
 define("_MESSAGESQUEUE","Очередь сообщений");//Messages queue
 define("_SENDNEXTQUEUEMESSAGES","Отправить следующее сообщение в очереди");//Send next queue messages
-define("_COURSE_ACQUISITION_AS_STUDENT","Приобретение курса в качестве учащегося");//Course acquisition as student
+define("_COURSE_ACQUISITION_AS_STUDENT","Приобретение курса в качестве слушателя");//Course acquisition as student
 define("_COURSE_ACQUISITION_AS_PROFESSOR","Приобретение курса в качестве преподавателя");//Course acquisition as professor
 define("_COURSE_VISITED","Курс посещен");//Course visited
 define("_COURSE_REMOVAL","Удаление курса");//Course removal
@@ -3258,7 +3258,7 @@ define("_THEMEFAVICON","Favicon темы");//Theme favicon
 define("_THEMELOGO","Логотип темы");//Theme logo
 define("_USETHEMEFAVICON","Использовать Favicon темы");//Use theme favicon
 define("_USETHEMELOGO","Использовать логотип темы");//Use theme logo
-define("_SHOWSTUDENTCPANEL","Показать панель управления учащегося");//Show student control panel
+define("_SHOWSTUDENTCPANEL","Показать панель управления слушателя");//Show student control panel
 define("_FORWARD","Вперед");//Forward
 define("_SENDER","Отправитель");//Sender
 define("_ORIGINALMESSAGE","Исходное сообщение");//Original message
@@ -3450,7 +3450,7 @@ define("_COMPLETIONPERCENTAGEBLOCK","Завершение в процентах"
 define("_UNITOPTIONSBLOCK","Параметры раздела учебного материала");//Unit options block
 define("_RIGHTBAR","Правая боковая панель");//Right sidebar
 define("_LEFTBAR","Левая боковая панель");//Left sidebar
-define("_STUDENTCPANEL","Панель управления учащегося");//Student control panel
+define("_STUDENTCPANEL","Панель управления слушателя");//Student control panel
 define("_SMARTCONTENT","Smart содержание");//Smart content
 define("_ZIPHANDLING","Метод обработки ZIP");//Zip handling method
 define("_COMPLETION","Завершение");//Completion
@@ -3583,7 +3583,7 @@ define("_AUTOLOGIN","Автоматический вход в систему");/
 define("_ACCESSLINK","Ссылка для доступа");//Access link
 define("_AUTOLOGINITHLINK","Пользователь может входить в систему автоматически по ссылке");//User can login automatically by link
 define("_DEFAULTUSERTYPE","Тип пользователя по умолчанию ");//Default user type
-define("_FORCEUSERANSERALLQUESTIONS","Обязать учащегося ответить на все вопросы");//Force student to answer all questions
+define("_FORCEUSERANSERALLQUESTIONS","Обязать слушателя ответить на все вопросы");//Force student to answer all questions
 define("_YOUHAVETOANSWERALLQUESTIONS","Вы должны ответить на все вопросы");//You have to answer all questions
 define("_ALLOWINDEPENDENTLESSONS","Разрешить самостоятельные уроки");//Allow independent lessons
 define("_NOPRESELECTEDDATE","Нет предопределенной даты");//No preselected date
@@ -3939,7 +3939,7 @@ define("_SCHEDULEDEXPIRYOFCOURSE","Запланированная дата ок�
 define("_ALLCOURSEUSERS","Все пользователи курса");//All course users
 define("_MOVEBLOCK","Перемещение блока");//Move block
 define("_EXPANDCOLLAPSEBLOCK","Развернуть/Свернуть блок");//Expand/collapse block
-define("_DEFAULTLEARNERTYPE","Тип учащегося по умолчанию");//Default learner type
+define("_DEFAULTLEARNERTYPE","Тип слушателя по умолчанию");//Default learner type
 define("_DEFAULTLEARNERTYPEINFO","Если у вас есть ключ для этой группы, то пользователи, которые используют этот ключ будет зачислены на уроки/курсы этой группы. Если данная группа, является группой по умолчанию, то новые пользователи будут автоматически назначены на уроки этой группы");//If you have set a group key for this group, then users that use the key will be enrolled to lessons/courses having this type. If you have set this group to be default, then new users will be assigned to the group's lessons with this type
 define("_DONTUSEDEFAULTGROUP","Не использовать тип по умолчанию");//Don't use default type
 define("_YOUHAVEBEENSUCCESSFULLYADDEDTOTHEGROUP","Вы успешно добавлены в группу");//You have been successfully added to the group
@@ -4198,7 +4198,7 @@ define("_YOUCANONLYLOGINFROMYOURBRANCHURL","Вы можете войти по п
 define("_NEWCOMMENT","Новый комментарий");//
 define("_ADDCUSTOMTEXT","Добавить собственный текст");//
 define("_ADDANOTHERCUSTOMTEXT","Добавить еще один собственный текст");//
-define("_VIEWLESSONASSTUDENT","Посмотреть урок с точки зрения учащегося");//
+define("_VIEWLESSONASSTUDENT","Посмотреть урок с точки зрения слушателя");//
 define("_BACKTOPROFESSORMODE","Вернуться в режим преподавателя");//
 define("_YOUAREINSTUDENTMODE","Вы просматриваете этот урок как учащийся.");//
 define("_CERTIFICATEEXPIRY","Срок действия сертификата");//
