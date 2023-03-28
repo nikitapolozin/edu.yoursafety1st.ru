@@ -4,8 +4,8 @@
   font-style: normal;
   font-weight: 400;
   src:	url('fonts/DroidSans.ttf') format('truetype'), 
-		    url('fonts/DroidSans.woff') format('woff'),
-		    url('fonts/Cambria.ttf') format('truetype');
+		url('fonts/DroidSans.woff') format('woff'),
+		url('fonts/Cambria.ttf') format('truetype');
 }
 
 html {

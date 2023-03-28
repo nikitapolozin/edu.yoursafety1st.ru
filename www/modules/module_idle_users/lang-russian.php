@@ -1,7 +1,7 @@
 <?php 
-define("_MODULE_IDLE_USERS_IDLEUSERS", "<Бездействующие пользователи");//Idle users
+define("_MODULE_IDLE_USERS_IDLEUSERS", "Бездействующие пользователи");//Idle users
 define("_MODULE_IDLE_USERS_LASTACTION", "Последний вход в систему"); //Last login
-define("_MODULE_IDLE_USERS_SHOWINACTIVEUSERSSINCE", "Показывать пользователям, бездействующим с");//Show users idle since
+define("_MODULE_IDLE_USERS_SHOWINACTIVEUSERSSINCE", "Показывать пользователей, бездействующих с");//Show users idle since
 define("_MODULE_IDLE_USERS_ARCHIVEALLUSERS", "Архивировать всех пользователей");//Archive all users
 define("_MODULE_IDLE_USERS_THISWILLARCHIVEALLUSERSAREYOUSURE", "Это заархивирует всех возвращенных пользователей, соответствующих выбранным критериям! Вы уверены?");//This will archive all users returned matching the selected criteria! Are you sure?
 define("_MODULE_IDLE_USERS_DEACTIVATEALLUSERS", "Деактивировать всех пользователей");//Deactivate all users

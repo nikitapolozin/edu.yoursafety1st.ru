@@ -16,14 +16,14 @@ define("_JOURNAL_NOACCESS","Вы не имеете достаточно прав
 define("_JOURNAL_EMPTY_RULE_DESCRIPTION","Правило описание не может быть пустым");//Rule description cannot be empty
 define("_JOURNAL_NO_RULES_FOUND","Нет правил найдено");//No rules found
 define("_JOURNAL_NO_ENTRIES_FOUND","Нет записей");//No entries found
-define("_JOURNAL_DOWNLOAD_AS","Скачать Как");//Download As
+define("_JOURNAL_DOWNLOAD_AS","Скачать как");//Download As
 define("_JOURNAL_DOWNLOAD_AS_TXT","TXT");//TXT
 define("_JOURNAL_CHANGE_DIMENSIONS","Изменение размеров журнал");//Change journal dimensions
 define("_JOURNAL_SMALL_DIMENSION","Малый (700x495)");//Small (700x495)
 define("_JOURNAL_MEDIUM_DIMENSION","Средний (800x565)");//Medium (800x565)
 define("_JOURNAL_LARGE_DIMENSION","Большой (900x636)");//Large (900x636)
-define("_JOURNAL_ENTRY_SUCCESSFULLY_ADDED","Вступление успешно добавлен");//Entry successfully added
-define("_JOURNAL_ENTRY_SUCCESSFULLY_EDITED","Вступление успешно обновлен");//Entry successfully updated
+define("_JOURNAL_ENTRY_SUCCESSFULLY_ADDED","Успешно добавлен");//Entry successfully added
+define("_JOURNAL_ENTRY_SUCCESSFULLY_EDITED","Успешно обновлен");//Entry successfully updated
 define("_JOURNAL_ENTRY_ADD_PROBLEM","Проблемы при добавлении вступления");//Problem while adding entry
 define("_JOURNAL_ENTRY_EDIT_PROBLEM","Проблема при обновлении вступления");//Problem while updating entry
 define("_JOURNAL_EMPTY_ENTRY_BODY","Вступление тела не может быть пустым");//Entry's body cannot be empty
