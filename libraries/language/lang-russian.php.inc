@@ -3696,8 +3696,8 @@ define("_PARTICIPATIONINTHECOURSESOFTHEGROUP","Участие всех поль�
 define("_PARTICIPATIONOFGROUPUSERSINCOURSES","Участие пользователей группы в курсах системы");//Participation of group users in the courses of the system
 define("_PURGELOGS","Очистить журналы");//Purge logs
 define("_LOGSSIZE","Размер журналов");//Logs size
-define("_OLDESTLOG","Самые старые записи в журнале");//Oldest log entry
-define("_PURGELOGSOLDERTHAN","Очистить журналы старше");//Purge logs older than
+define("_OLDESTLOG","Старые записи в журнале");//Oldest log entry
+define("_PURGELOGSOLDERTHAN","Очистить данные до даты");//Purge logs older than
 define("_SUCCESSFULLYPURGEDLOGS","Журналы успешно очищены");//Successfully purged logs
 define("_ONLYXCANBEAPPLIEDATATIME","Было обработано только %х записей, что является пределом для этой операции");//Only %x entities where processed, which is the limit for this operation
 define("_YOUCANNOTASSIGNUSERSBECAUSECURRICULUMISEMPTY","Вы не можете назначить пользователей в эту программу обучения, поскольку она не содержит курсов");//You cannot assign users to this curriculum because it has no courses
@@ -3745,9 +3745,9 @@ define("_CACHEENTRYNOTFOUND","Не найдена запись кэша");//Cach
 define("_CACHEENTRYEXPIRED","Срок действия записи кэша истек");//Cache entry expired
 define("_CACHEENTRYINVALID","Запись кэша недействительна");//Cache entry is invalid
 define("_PURGENOTIFICATIONS","Очистить уведомления");//Purge notifications
-define("_NOTIFICATIONSSIZE","Размер уведомлений");//Notifications size
-define("_OLDESTNOTIFICATION","Старейшие уведомления");//Oldest notification
-define("_PURGENOTIFICATIONSOLDERTHAN","Очистить уведомления старше чем");//Purge notifications older than
+define("_NOTIFICATIONSSIZE","Количество уведомлений");//Notifications size
+define("_OLDESTNOTIFICATION","Старые уведомления");//Oldest notification
+define("_PURGENOTIFICATIONSOLDERTHAN","Очистить уведомления до даты");//Purge notifications older than
 define("_CURRENTUSERS","Текущие пользователи");//Current
 define("_SELECTEDCOURSES","Выбранные курсы");//Selected courses
 define("_MODULEFILESPRESENTNOTINSTALLED","Файлы модуля присутствуют, но они не установлены");//Module files are present, but it is not installed
@@ -3773,9 +3773,9 @@ define("_USEORLOGICTOCORRECTANSWERS","Использовать логику ИЛ
 define("_VARIABLEMUSTCONTAINLOGIN","Переменная %х должна содержать &quot;%y&quot;, для продолжения");//The variable %x must contain &quot;%y&quot; in order to continue
 define("_OPENUNITINPOPUP","Открыть во всплывающем окне"); //Open unit in popup window (Открыть раздел во всплывающем окне)
 define("_USERALREADYEXISTSARCHIVED","Пользователь с указанным именем уже существует (заархивирован)");//A user with the specified login already exists (archived)
-define("_EVENTSSIZE","Объем событий");//Events size
-define("_OLDESTEVENT","Старейшие события");//Oldest event
-define("_PURGEEVENTSOLDERTHAN","Очистить события старше чем");//Purge events older than
+define("_EVENTSSIZE","Количество событий");//Events size
+define("_OLDESTEVENT","Старые события");//Oldest event
+define("_PURGEEVENTSOLDERTHAN","Очистить события до даты");//Purge events older than
 define("_PURGEEVENTS","Очистить события");//Purge events
 define("_USERSEPERUSERTYPE","Пользователей по типам");//Users per user type
 define("_MINUTESPERUSER","Минут на пользователя");//Minutes per user
