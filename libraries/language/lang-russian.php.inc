@@ -1252,7 +1252,7 @@ define("_WITHVALUE","со значением");//with value
 define("_INVALIDFIELDDATAFORFIELD","Неправильные данные в поле");//Invalid data for field
 define("_LDAPVARIABLES","Конфигурация LDAP-сервера");//LDAP server configuration
 define("_EMAILCOULDNOTBESENDBECAUSE","Сообщение не может быть отправлено");//The email could not be sent
-define("_EMAILSENDTOYOURADDRESS","Сообщение было отправлено на Ваш адрес электронной почты");//The email was send to your email address
+define("_EMAILSENDTOYOURADDRESS","Сообщение было отправлено на Ваш адрес электронной почты. ");//The email was send to your email address
 define("_YOUMUSTFIRSTCREATEDIRECTION","Для того чтобы создать урок, вы должны сначала создать категорию");//In order to create a lesson, you must first create a category
 define("_SAVEQUESTIONANDCREATENEW","Сохранить вопрос и создать другой");//Save question and create another
 define("_SAVEASNEWQUESTION","Сохранить как новый вопрос");//Save as new question
