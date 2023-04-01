@@ -31,11 +31,11 @@ define("_BACK","&larr;&nbsp;Назад");//&larr;&nbsp;Back
 define("_CONFIGURATIONVARIABLES","Системные настройки");//System settings
 define("_CHANGESITELOGO","Измененить логотип сайта");//Site logo
 define("_ONLYONELANGUAGE","Поддержка только одного языка (по умолчанию)");//Support only one (the default) Language
-define("_YES","Да");//Yes
-define("_NO","Нет");//No
+define("_YES","Да"); // Yes
+define("_NO","Нет"); //No
 define("_UPDATELESSONS","Изменение уроков");//Update lessons
 define("_ADMINEMAIL","E-mail администратора");//Administrator email
-define("_LESSONSDELETED","Урок был удален");//The lesson was deleted
+define("_LESSONSDELETED","Урок был удален"); // The lesson was deleted
 define("_SHOWFOOTER","Показать колонтитул");//Show footer
 define("_DEFAULTLANGUAGE","Язык по умолчанию");//Default language
 define("_DIGITALLIBRARY","Библиотека файлов");//Digital file library
@@ -56,10 +56,10 @@ define("_PERSONALOPTIONS","Инструменты");//Tools
 define("_QUESTIONWEIGHT","Вес вопроса (1-10)");//Question weight (1-10)
 define("_WEIGHT","Вес");//Weight
 define("_NONEWLESSONREGISTRATIONS","Нет новых регистраций на урок");//No new lesson registration
-define("_LESSONS","Уроки");//Lessons
+define("_LESSONS","Уроки"); // Lessons
 define("_RECREATESEARCHTABLE","Воссоздать таблицу поиска заново");//Recreate search table
 define("_LESSONSREGISTRATIONS","Регистрация на урок");//Lesson registrations
-define("_TOOLS","Инструменты");//Tools
+define("_TOOLS","Инструменты"); // Tools
 define("_ONLINEUSERS","В системе");//Connected
 define("_DATE","Дата");//Date
 define("_STUDENT","Учащийся");//Student
@@ -96,9 +96,9 @@ define("_WELCOMETO","Добро пожаловать");//Welcome to
 define("_LESSONANNOUNCEMENT","Объявление к уроку");//Announcement for the lesson
 define("_COLOR","Цвет");//Color
 define("_HOUR","час");//hour
-define("_HOURS","часов");//hours
+define("_HOURS","часы (-ов)");//hours
 define("_MINUTE","минута");//minute
-define("_MINUTES","минут");//minutes
+define("_MINUTES","минут (-ы)");//minutes
 define("_SECONDS","секунд");//seconds
 define("_LASTLOGIN","Последний вход");//Last log-in
 define("_MEAN","Средний");//Average
@@ -111,18 +111,18 @@ define("_ANDYOUDIDITIN","и вы выполнили его в");//and you comple
 define("_TO","До");//to
 define("_DEPENDSONQUESTIONS","в зависимости от ваших ответов на открытые вопросы.");//depending on your answers on open-answer questions.
 define("_EXAMPLEANSWER","Пример ответа");//Example answer
-define("_SCORE","Оценка");//Score
-define("_THISQUESTIONCORRECTEDPROFESSOR","Этот вопрос будет оценен преподавателем.");//This question will be corrected by the professor
-define("_RIGHTANSWER","Правильный ответ");//Correct answer
-define("_TESTSHOULDCOMPLETEIN","Этот тест должен быть завершен за");//This test must be completed in
+define("_SCORE","Оценка"); // Score
+define("_THISQUESTIONCORRECTEDPROFESSOR","Этот вопрос будет исправлен преподавателем."); // This question will be corrected by the professor
+define("_RIGHTANSWER","Правильный ответ"); // Correct answer
+define("_TESTSHOULDCOMPLETEIN","Этот тест должен быть завершен за"); // This test must be completed in
 define("_TIMELEFT","Осталось времени");//Time remaining
-define("_YOUCANNOTLOGINAS","Нет пользователя с именем:");//No user exists with login name:
-define("_WRONGPASSWORDTRYAGAIN","Вы ввели неправильный пароль. Пожалуйста, попробуйте еще раз.");//You gave a wrong password. Please try again.
-define("_NOTACTIVATEDACCOUNTTRYAGAINLATER","Ваша учетная запись еще не активирована. Пожалуйста, повторите попытку позже.");//Your account has not been activated yet. Please try again later.
-define("_YOUHAVEBEENEXCLUDEDBYPROFESSOR","Вы исключены преподавателем");//You are excluded by professor
-define("_MUSTFIRSTREADUNIT","Вы должны сначала прочитать этот раздел");//You must first read unit
-define("_MUSTFIRSTTAKEATLEAST","Вы должны сначала пройти, по крайней мере,");//You must first take at least
-define("_YOURTIMEISUP","Ваше время истекло");//Your time is up
+define("_YOUCANNOTLOGINAS","Не существует пользователя с именем для входа:"); // No user exists with login name:
+define("_WRONGPASSWORDTRYAGAIN","Вы ввели неправильный пароль. Пожалуйста, попробуйте еще раз."); // You gave a wrong password. Please try again.
+define("_NOTACTIVATEDACCOUNTTRYAGAINLATER","Ваша учетная запись еще не активирована. Пожалуйста, повторите попытку позже."); // Your account has not been activated yet. Please try again later.
+define("_YOUHAVEBEENEXCLUDEDBYPROFESSOR","Вы исключены преподавателем"); // You are excluded by professor
+define("_MUSTFIRSTREADUNIT","Вы должны сначала прочитать этот раздел"); // You must first read unit
+define("_MUSTFIRSTTAKEATLEAST","Вы должны сначала пройти, по крайней мере,"); // You must first take at least
+define("_YOURTIMEISUP","Ваше время истекло"); // Your time is up
 define("_ATTEST","в тесте");//at test
 define("_WANTTOREDOTEST","Я хочу повторить этот тест");//I want to redo this test
 define("_PERCENT","Процент");//Percent
