@@ -1082,7 +1082,7 @@ define("_SHOWALLLESSONS","Показать все уроки");//Show all lesson
 define("_CHATROOMDEACTIVATEDBYADMIN","Канал чата отключен администратором");//Chat room deactivated by administrator
 define("_IPADDRESS","IP адрес");//IP address
 define("_YOUHAVEALREADYUPLOADEDAFILE","Вы уже загрузили файл");//You have uploaded a file
-define("_FILEDELETEDSUCCESSFULLY","Файл удален");//File deleted successfully
+define("_FILEDELETEDSUCCESSFULLY","Файл удален"); // File deleted successfully
 define("_GRADE","Оценка");//Grade
 define("_PROFESSORCOMMENTS","Комментарии преподавателя");//Professor comments
 define("_DEADLINEPASSEDYOUCANNOLONGERUPLOADFILES","Срок прошел. Вы больше не сможете загружать файлы.");//The deadline has passed. You can no longer upload files.
