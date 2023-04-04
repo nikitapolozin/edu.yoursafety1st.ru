@@ -3,7 +3,7 @@ if (is_file($GLOBALS['path']."language/custom-russian.php.inc")) {
 include($GLOBALS['path']."language/custom-russian.php.inc");
 }
 define("_EFRONTURL","http://www.efrontlearning.net");//http://www.efrontlearning.net
-define("_EFRONTNAME","eFront");//eFront
+define("_EFRONTNAME","eFront"); // eFront
 define("_EFRONTLOGIN","Войти в систему");//Login to eFront
 define("_HEADERLANGUAGEHTMLTAG","ru");//en
 define("_CURRENTLANGUAGESYMBOL","ru");//en
