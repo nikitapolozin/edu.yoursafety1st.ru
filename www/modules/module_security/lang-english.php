@@ -1,10 +1,10 @@
 <?php
-define("_MODULE_SECURITY_MODULESECURITY", "Security module");
-define("_MODULE_SECURITY_LOCALISSUE", "Critical security issue");
+define("_MODULE_SECURITY_MODULESECURITY", "Модуль безопасности"); // Security module
+define("_MODULE_SECURITY_LOCALISSUE", "Критическая проблема безопасности"); // Critical security issue
 define("_MODULE_SECURITY_INSTALLATIONFOLDERSTILLEXISTS", "Installation folder, www/install, still exists");
-define("_MODULE_SECURITY_MAGICQUOTESGPCISON", "php ini setting 'magic_quotes_gpc' is ON");
-define("_MODULE_SECURITY_DEFAULTACCOUNTSSTILLEXIST", "Default accounts with default credentials, <b>student/student</b> and <b>professor/professor</b> still exist");
-define("_MODULE_SECURITY_PAGE", "Details");
+define("_MODULE_SECURITY_MAGICQUOTESGPCISON", "php ini настройки 'magic_quotes_gpc' ВКЛ"); // php ini setting 'magic_quotes_gpc' is ON
+define("_MODULE_SECURITY_DEFAULTACCOUNTSSTILLEXIST", "Учётные записи «по-умолчанию» с учетными данными по умолчанию, <b>студент/студент</b> и <b>профессор/профессор</b> все еще существуют"); // Default accounts with default credentials, <b>student/student</b> and <b>professor/professor</b> still exist
+define("_MODULE_SECURITY_PAGE", "Подробности"); // Details
 define("_MODULE_SECURITY_SOMEFILESHAVECHANGEDSINCELASTTIME", "%x system files have changed in the filesystem");
 define("_MODULE_SECURITY_NEWFILESFOUND", "%x new PHP files found in the filesystem");
 define("_MODULE_SECURITY_ADDTOIGNORELIST", "Add to ignore list");
