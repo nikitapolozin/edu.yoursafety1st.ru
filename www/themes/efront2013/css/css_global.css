@@ -1617,7 +1617,7 @@ table.pageLayout div .note {
 clear:both;
 padding-top:10px;
 padding-left:10px;
-display:block;
+display: nono; /* было block */
 }
 
 table.pageLayout form.indexForm .inputCheckbox {
